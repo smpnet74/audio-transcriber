@@ -13,7 +13,6 @@ import shutil
 import sys
 import tempfile
 from pathlib import Path
-from typing import Optional
 
 import ffmpeg
 from groq import Groq
@@ -22,7 +21,6 @@ from jinja2 import Template
 from rich.console import Console
 from rich.logging import RichHandler
 from rich.progress import Progress, SpinnerColumn, TextColumn
-from tqdm import tqdm
 
 
 # Configure logging with Rich
